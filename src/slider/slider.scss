@@ -1,0 +1,95 @@
+@import "../variables.scss";
+
+.slider{
+    margin-bottom: 105px;
+
+    .slider-control{
+        display: flex;
+        justify-content: center;
+    
+        .slider-control__circle{
+            width: 12px;
+            height: 12px;
+            border-radius: 6px;
+            margin-right: 12px;
+            cursor: pointer;
+        }
+        
+        .circle-not-active{
+            background-color: #EFEEF6;
+        }
+        
+        .circle-active{
+            background-color: $base-violet;
+        }
+    }
+
+    .slider-sticker__text{
+        display: block;
+        color: $base-black;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        box-shadow: $box-shadow-1;
+    }
+
+    .slider-img{
+        max-height: 704px;
+        height: 37vw;
+        margin-left: auto;
+        background-image: "";
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-bottom: 20px;
+        box-shadow: 0px 6px 59px rgba(53, 49, 84, 0.08);
+    }
+
+    @media screen and (max-width: 1500px){
+        .slider-img{
+            height: 50vw;
+        }
+    }
+
+    @media screen and (min-width: 1500px){
+        .slider-img{
+            height: 50vw;
+        }
+    }
+    
+    .slider-sticker-1{
+        background-color: $base-violet;
+        width: 8%;
+        position: absolute;
+        top: 4%;
+        right: 8%;
+        padding: 100px 20px 20px 20px;
+    }
+
+    @media screen and (max-width: 1100px){
+        .slider-sticker-1{
+            top: 1%;
+        }
+    }
+    
+    .slider-sticker-2{
+        background-color: #FF8FE6;
+        width: 7%;
+        position: absolute;
+        top: 20%;
+        right: 0;
+        padding: 100px 20px 20px 20px;
+    }
+
+    @media screen and (max-width: 1100px){
+        .slider-sticker-2{
+            top: 10%;
+        }
+    }
+}
+
+
+

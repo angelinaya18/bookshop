@@ -1,0 +1,69 @@
+.slider {
+  margin-bottom: 105px; }
+  .slider .slider-control {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .slider .slider-control .slider-control__circle {
+      width: 12px;
+      height: 12px;
+      border-radius: 6px;
+      margin-right: 12px;
+      cursor: pointer; }
+    .slider .slider-control .circle-not-active {
+      background-color: #EFEEF6; }
+    .slider .slider-control .circle-active {
+      background-color: #9E98DC; }
+  .slider .slider-sticker__text {
+    display: block;
+    color: #1C2A39;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 24px 36px 0px rgba(53, 49, 84, 0.28);
+            box-shadow: 0px 24px 36px 0px rgba(53, 49, 84, 0.28); }
+  .slider .slider-img {
+    max-height: 704px;
+    height: 37vw;
+    margin-left: auto;
+    background-image: "";
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 6px 59px rgba(53, 49, 84, 0.08);
+            box-shadow: 0px 6px 59px rgba(53, 49, 84, 0.08); }
+  @media screen and (max-width: 1500px) {
+    .slider .slider-img {
+      height: 50vw; } }
+  @media screen and (min-width: 1500px) {
+    .slider .slider-img {
+      height: 50vw; } }
+  .slider .slider-sticker-1 {
+    background-color: #9E98DC;
+    width: 8%;
+    position: absolute;
+    top: 4%;
+    right: 8%;
+    padding: 100px 20px 20px 20px; }
+  @media screen and (max-width: 1100px) {
+    .slider .slider-sticker-1 {
+      top: 1%; } }
+  .slider .slider-sticker-2 {
+    background-color: #FF8FE6;
+    width: 7%;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    padding: 100px 20px 20px 20px; }
+  @media screen and (max-width: 1100px) {
+    .slider .slider-sticker-2 {
+      top: 10%; } }
+
+/*# sourceMappingURL=slider.css.map */

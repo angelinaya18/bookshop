@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import "../variables.scss";
+
+.m-0{
+    margin: 0;
+}
+
+.p-0{
+    padding: 0;
+}
+
+.container{
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background-color: #fff;
+    height: 116px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+
+    .header-content{
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+    }
+}
+
+.logo{
+    color: $base-black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+
+    .header-navigation__item{
+        margin-right: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        line-height: normal;
+        text-transform: uppercase;
+
+        .navigation__item-link{
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .navigation{
+        display: none;
+    }
+}
+
+.text-none-select{
+    color: $base-gray;
+    font-weight: 700;
+}
+
+.text-select{
+    color: $base-black;
+    font-weight: 900;
+}
+
+.button-icon{
+    background-color: white;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    cursor: pointer;
+    position: relative;
+}
+
+.bag-items-count{
+    position: absolute;
+    bottom: 0;
+    right: -5px;
+    width: max-content;
+    height: max-content;
+    min-width: 13px;
+    min-height: 13px;
+    background-color: #FF353A;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    margin-top: 116px;
+    position: relative;
+}

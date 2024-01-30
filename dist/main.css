@@ -1,0 +1,374 @@
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/main/main.css ***!
+  \*********************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/main/main.css (1) ***!
+  \*************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap);
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/slider/slider.css ***!
+  \*************************************************************************/
+.slider {
+  margin-bottom: 105px; }
+  .slider .slider-control {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .slider .slider-control .slider-control__circle {
+      width: 12px;
+      height: 12px;
+      border-radius: 6px;
+      margin-right: 12px;
+      cursor: pointer; }
+    .slider .slider-control .circle-not-active {
+      background-color: #EFEEF6; }
+    .slider .slider-control .circle-active {
+      background-color: #9E98DC; }
+  .slider .slider-sticker__text {
+    display: block;
+    color: #1C2A39;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 24px 36px 0px rgba(53, 49, 84, 0.28);
+            box-shadow: 0px 24px 36px 0px rgba(53, 49, 84, 0.28); }
+  .slider .slider-img {
+    max-height: 704px;
+    height: 37vw;
+    margin-left: auto;
+    background-image: "";
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 6px 59px rgba(53, 49, 84, 0.08);
+            box-shadow: 0px 6px 59px rgba(53, 49, 84, 0.08); }
+  @media screen and (max-width: 1500px) {
+    .slider .slider-img {
+      height: 50vw; } }
+  @media screen and (min-width: 1500px) {
+    .slider .slider-img {
+      height: 50vw; } }
+  .slider .slider-sticker-1 {
+    background-color: #9E98DC;
+    width: 8%;
+    position: absolute;
+    top: 4%;
+    right: 8%;
+    padding: 100px 20px 20px 20px; }
+  @media screen and (max-width: 1100px) {
+    .slider .slider-sticker-1 {
+      top: 1%; } }
+  .slider .slider-sticker-2 {
+    background-color: #FF8FE6;
+    width: 7%;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    padding: 100px 20px 20px 20px; }
+  @media screen and (max-width: 1100px) {
+    .slider .slider-sticker-2 {
+      top: 10%; } }
+/*!***************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/catalog-books/catalog-books.css ***!
+  \***************************************************************************************/
+.catalog-categories {
+  background-color: #EFEEF6;
+  width: 30%; }
+
+.categories-container {
+  background-color: #EFEEF6;
+  width: 30%;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  position: absolute;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .categories-container .categories {
+    padding: 0;
+    margin: 0 0 0 40%; }
+    .categories-container .categories .categories__item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: relative;
+      padding-left: 16px;
+      margin-bottom: 16px;
+      cursor: pointer; }
+    .categories-container .categories .categories__item-not-select {
+      color: #5C6A79;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize; }
+    .categories-container .categories .categories__item-select {
+      color: #1C2A39;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize; }
+      .categories-container .categories .categories__item-select .circle-selected-categories {
+        width: 6px;
+        height: 6px;
+        border-radius: 3px;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        background-color: #756AD3;
+        position: absolute;
+        left: 0; }
+
+.books-container {
+  position: relative;
+  padding-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%; }
+  .books-container .book-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .books-container .book-items .book-item {
+      width: 424px;
+      height: 300px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 85px; }
+      .books-container .book-items .book-item .book-img {
+        overflow: hidden;
+        width: 50%;
+        -webkit-box-shadow: 0px 24px 36px 0px rgba(53, 49, 84, 0.28);
+                box-shadow: 0px 24px 36px 0px rgba(53, 49, 84, 0.28);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .books-container .book-items .book-item .book-imgimg {
+          width: 100%; }
+      .books-container .book-items .book-item .book-info {
+        width: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .books-container .book-items .book-item .book-info .book-info__container {
+          margin-left: 36px;
+          width: 100%; }
+          .books-container .book-items .book-item .book-info .book-info__container .book-info__level-1 {
+            color: #1C2A39;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal; }
+          .books-container .book-items .book-item .book-info .book-info__container .book-info__level-2 {
+            color: #1C2A39;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase; }
+          .books-container .book-items .book-item .book-info .book-info__container .book-info__level-3 {
+            color: #5C6A79;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize; }
+          .books-container .book-items .book-item .book-info .book-info__container .book-rating {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; }
+            .books-container .book-items .book-item .book-info .book-info__container .book-rating .stars {
+              margin-right: 6px;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center; }
+  @media screen and (max-width: 1300px) {
+    .books-container .book-items {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+
+.button-base {
+  width: 100%;
+  background-color: white;
+  font-family: Montserrat;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 17px 0;
+  cursor: pointer; }
+
+.button-active {
+  border: 1px solid #4C3DB2;
+  color: #4C3DB2; }
+
+.button-not-active {
+  border: 1px solid #5C6A79;
+  color: #5C6A79; }
+
+.text-max-3-stroke {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden; }
+
+.load-more {
+  width: 176px; }
+
+.c-icon-star {
+  --star-active: #F2C94C;
+  --star-inactive: #EEEDF5;
+  fill: var(--star-inactive); }
+
+.c-icon-star.active {
+  fill: var(--star-active); }
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/main/main.css (2) ***!
+  \*************************************************************************/
+.m-0 {
+  margin: 0; }
+
+.p-0 {
+  padding: 0; }
+
+.container {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.header {
+  background-color: #fff;
+  height: 116px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%; }
+  .header .header-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+.logo {
+  color: #1C2A39;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; }
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none; }
+  .navigation .header-navigation__item {
+    margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase; }
+    .navigation .header-navigation__item .navigation__item-link {
+      text-decoration: none; }
+
+@media screen and (max-width: 1300px) {
+  .navigation {
+    display: none; } }
+.text-none-select {
+  color: #5C6A79;
+  font-weight: 700; }
+
+.text-select {
+  color: #1C2A39;
+  font-weight: 900; }
+
+.button-icon {
+  background-color: white;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  margin-left: 40px;
+  cursor: pointer;
+  position: relative; }
+
+.bag-items-count {
+  position: absolute;
+  bottom: 0;
+  right: -5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  min-width: 13px;
+  min-height: 13px;
+  background-color: #FF353A;
+  color: #FFFFFF;
+  border-radius: 7px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.main {
+  margin-top: 116px;
+  position: relative; }

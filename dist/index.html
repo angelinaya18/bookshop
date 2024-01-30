@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookshop</title>
+<script defer src="bundle.js"></script><link href="main.css" rel="stylesheet"></head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="header-text logo">
+                Bookshop
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li class="header-navigation__item header-text">
+                        <a class="navigation__item-link text-select" href="#">books</a>
+                    </li>
+                    <li class="header-navigation__item header-text">
+                        <a class="navigation__item-link text-none-select" href="#">audiobooks</a>
+                    </li>
+                    <li class="header-navigation__item header-text">
+                        <a class="navigation__item-link text-none-select" href="#">Stationery & gifts</a>
+                    </li>
+                    <li class="header-navigation__item header-text">
+                        <a class="navigation__item-link text-none-select" href="#">blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <button class="button-icon">
+                    <image src="../src/images/icons/user.svg" alt="Авторизация"></image>
+                </button>
+                <button class="button-icon">
+                    <image src="../src/images/icons/search.svg" alt="Поиск"></image>
+                </button>
+                <button class="button-icon">
+                    <image src="../src/images/icons/shop-bag.svg" alt="Корзина"></image>
+                    <div class="bag-items-count"></div>
+                </button>
+            </div>
+        </div>        
+    </header>
+    <main class="main">
+        <section class="container slider">
+            <div class="slider-img"></div>
+            <div class="slider-control">
+                <div class="slider-control__circle circle-active"></div>
+                <div class="slider-control__circle circle-not-active"></div>
+                <div class="slider-control__circle circle-not-active"></div>
+            </div>
+            <a class="slider-sticker__text slider-sticker-1 navigation__item-link" href="#">
+                Change<br>old book<br>on new<br><image src="../src/images/icons/arrow.svg" alt="Перейти"></image>
+            </a>
+            <a class="slider-sticker__text slider-sticker-2 navigation__item-link" href="#">
+                top<br>100<br>books<br>2022<br><image src="../src/images/icons/arrow.svg" alt="Перейти"></image>
+            </a>
+        </section>
+        <section class="container catalog">
+            <div class="categories-container">
+                <ul class="categories"></ul>
+            </div>
+            <div class="books-container">
+                <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+                    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="star">
+                        <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                    </symbol>
+                </svg>
+                <div class="book-items"></div>
+                <button class="button-base button-active load-more">Load more</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
